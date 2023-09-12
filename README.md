@@ -62,6 +62,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  1. Ze gebruiken nog spreekwoorden in de site.
+  2. De videos/slides staan op autoplay.
+  3. 'dark and light modus' zijn niet te gebruiken op de site.
+  4. Er zijn 0 errors en 5 warnings te vinden.
 
 </details>
 
