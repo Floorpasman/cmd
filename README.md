@@ -55,7 +55,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/beginscherm3-heineken.png" width="100px" alt="Het derde startscherm">
 </details>
 
-
+  Verhaal heineken pagina  
+  <img src="readme-images/verhaalheineken1.png" width="100px" alt="Het eerste startscherm">
+  <img src="readme-images/verhaalheineken2.png" width="100px" alt="Het tweede startscherm">
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
