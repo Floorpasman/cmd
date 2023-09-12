@@ -40,12 +40,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.heineken.com/nl/nl/home
   
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/inlogscherm.png" width="375px" alt="Ouder dan 18?">
+  Leeftijd-controle pagina  
+  <img src="readme-images/inlogscherm.png" width="100px" alt="Ouder dan 18?">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Begin pagina  
+  <img src="readme-images/beginscherm-heineken.png" width="100px" alt="Het eerste startscherm">
+  <img src="readme-images/beginscherm2-heineken.png" width="100px" alt="Het tweede startscherm">
+  <img src="readme-images/beginscherm3-heineken.png" width="100px" alt="Het derde startscherm">
  
 </details>
 
