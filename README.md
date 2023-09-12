@@ -48,7 +48,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/beginscherm-heineken.png" width="100px" alt="Het eerste startscherm">
   <img src="readme-images/beginscherm2-heineken.png" width="100px" alt="Het tweede startscherm">
   <img src="readme-images/beginscherm3-heineken.png" width="100px" alt="Het derde startscherm">
- 
+
+  Begin pagina  
+  <img src="readme-images/beginscherm-heineken.png" width="100px" alt="Het eerste startscherm">
+  <img src="readme-images/beginscherm2-heineken.png" width="100px" alt="Het tweede startscherm">
+  <img src="readme-images/beginscherm3-heineken.png" width="100px" alt="Het derde startscherm">
 </details>
 
 
