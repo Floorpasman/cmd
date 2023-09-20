@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* algemene dingen */
+img{
+    width: 100%;
+    height: auto;
+    align-self: stretch;
+    object-fit: cover;
+    display: block;
+}
+
+h2{
+    color: #13670b;
+    font-size: 3em;
+    margin-left: 2.5%;
+    margin-top: 10%;
+}
+
+/* slider */
+
+ul:nth-child(2) {
+    padding: 2rem;}
+
+.slider-wrapper{
+    margin: 0 auto
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    /* aspect-ratio: 16/9; */
+}
+
+.slider ul {
+    display: flex;
+}
+.slider ul li {
+    width: 100vw;
+}
+
+.slider img{
+    width: 100%;
+}
+
+/* Grid 1 */
+
+ul{
+    list-style: none;
+}
+
+.grid1 ul{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    
+}
+ /* Ons historie blokje */
+
+li:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+
+li:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+li:nth-of-type(1) img{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+
+li:nth-of-type(1) p{
+    color: white;
+}
+
+li:nth-of-type(1) .achtergrond{
+    background-color: #13670b;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    max-width: 80%;}
+
+li:nth-of-type(1) h3{
+    color: white;
+}
+
+ /* Duurzaamheid blokje */
+
+li:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+li:nth-of-type(2) img{
+grid-column-start: 1;
+grid-column-end: -1;
+grid-row-start: 1;
+grid-row-end: 4;
+object-fit:cover;
+}
+
+li:nth-of-type(2) .achtergrond{
+    background-color: #13670b;
+    margin-left: 10%;
+    margin-top: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 100%;
+    max-height: 70%;}
+
+li:nth-of-type(2) h3{
+    color: white;
+}
+
+
+li:nth-of-type(2) p{
+    color: white;
+}
+
+ /* Het brouwproces blokje */
+
+li:nth-of-type(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+li:nth-of-type(3) .achtergrond{
+    background-color: #13670b;
+    margin-left: 10%;
+    margin-top: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 80%;
+    max-height: 70%;}
+
+ li:nth-of-type(3) h3{
+    color: white;
+    }
+    
+    
+li:nth-of-type(3) p{
+    color: white;
+    }
+
+li:nth-of-type(3) img{
+object-fit: cover;
+grid-column-start: 1;
+grid-column-end: -1;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+
+
+@media (min-width: 950px) {
+    .grid1 ul {
+      grid-template-rows: 1fr;
+      max-height: 30em;
+    }
+    li:nth-of-type(1) {
+        max-height: 30em;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    li:nth-of-type(2) {
+        max-height: calc(15em - 10px);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    li:nth-of-type(3) {
+        max-height: calc(15em - 10px);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+}
+
+/* navigatie bar */
+
+header{
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    gap: 60px;
+    padding-left: 3em;
+}
+
+.nav-branding{
+width: 80px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        right: -150%;
+        gap: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: #0b4506;
+        opacity: 90%;
+        width: 85%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100vh;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        right: 0;
+    }
+}

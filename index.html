@@ -1,21 +1,130 @@
-<!doctype html>
-<html lang="nl">
-	
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2324</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
 </head>
-
 <body>
-	<h1>Howdy FED2324</h1>
+<header>
 
-	<script defer src="scripts/script.js"></script>
+    <!-- navigatie bar-->
+    <nav class="navbar">
+        <a href="#" class="nav-branding"><img src="images/logo.png" alt=""></a>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Ons verhaal</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Onze producten</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Enjoy responsibly</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sponsoring</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Commercials</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Acties</a>
+            </li>
+
+            <li class="nav-item">
+                <!-- Hier komt een foto van nederlanse kaart -->
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+    <!-- slider 1-->
+
+    <div class="slider-wrapper">
+        <div class="slider">
+<ul>
+    <li>
+        <img src="images/maxverstappen.jpeg" alt="Foto van Max Verstappen met een 0.0 biertje in zijn hand.">
+    </li>
+
+    <li>
+        <img src="images/extra-zachte-expo.png" alt="Veel lachende mensen op een feestje.">
+    </li>
+
+    <li>
+        <img src="images/heineken-150-jaar.png" alt="Veel vrolijke mensen op een feestje met bier in hun hand.">
+    </li>
+
+    <li>
+        <img src="images/heineken-silver.jpeg" alt="2 heineken silver blikjes in het water">
+    </li>
+    </div>
+    </div>
+</ul>
+
+    <!-- grid 1 -->
+<h2>Ons verhaal</h2>
+<section class="grid1">
+<ul>
+    <li>
+        <section class="achtergrond">
+            <h3>Ons Historie</h3>
+            <p>In Nederland geboren, door de wereld groot gebracht.</p>           
+        </section>
+        <img src="images/history-hero-1648.jpeg" alt="oude foto van heinekens brouwerij.">   
+    </li>
+
+    <li>
+        <section class="achtergrond">
+            <h3>Duurzaamheid</h3>
+            <p>Het beste bier wordt gebrouwen in een betere wereld.</p>    
+        </section>       
+        <img src="images/sustainability-hero.jpeg" alt="Foto van een duurzame muur">
+    </li>
+
+    <li>
+        <section class="achtergrond">
+            <h3>Het brouwproces</h3>
+            <p>Pure Malt Quality</p>
+        </section>    
+        <img src="images/our-story-hero.jpeg" alt="Foto waar het bier gebrouwen wordt.">
+    </li>
+
+</ul>
+</section>
+
+
+<!-- <script src="js/script.js"></script> -->
+<script>
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const body = document.querySelector("body");
+
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+
+
+
+</script>
+
+
+
 </body>
-	
 </html>
