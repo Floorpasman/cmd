@@ -90,14 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/beginscherm-breakdown.png" width="375px" alt="breakdown van het beginscherm met annotaties">
 
   ### Pagina 2: 
-  <img src="readme-images/beginscherm-breakdown.png" width="375px" alt="breakdown van het beginscherm met annotaties">
-
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/scherm-breakdown.png" width="375px" alt="breakdown van het beginscherm met annotaties">
 
 </details>
 
