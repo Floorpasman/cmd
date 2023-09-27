@@ -170,6 +170,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  <img src="readme-images/testuitslagen.jpg" width="375px" alt="test uitslagen van toegankelijkheid">
+
 </details>
 
 
