@@ -68,6 +68,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. 'dark and light modus' zijn niet te gebruiken op de site.
   4. Er zijn 0 errors en 5 warnings te vinden.
 
+(linker kant = originele site,
+  rechter kant = mijn site)
+
+  <img src="readme-images/testuitslag1.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag2.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag3.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag4.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag5.png" width="375px" alt="test uitslagen van toegankelijkheid">
+
 </details>
 
 
@@ -169,6 +178,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  (linker kant = originele site,
+  rechter kant = mijn site)
 
   <img src="readme-images/testuitslag1.png" width="375px" alt="test uitslagen van toegankelijkheid">
   <img src="readme-images/testuitslag2.png" width="375px" alt="test uitslagen van toegankelijkheid">
