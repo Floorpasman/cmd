@@ -1,0 +1,698 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* algemene dingen */
+
+img {
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+    object-fit: cover;
+    display: block;
+}
+
+h2 {
+    color: #13670b;
+    font-size: 3em;
+    margin-left: 2.5%;
+    margin-top: 10%;
+}
+
+body.inlogpagina {
+    background-color: #0b4506;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    margin-top: 5%;
+}
+
+.inlogpagina button {
+    font-size: 1em;
+    color: white;
+    background-color: #9eb29c;
+    border: none;
+    border-radius: 2%;
+    max-width: 20em;
+    padding: 10px 0px;
+    margin-left: 30%;
+}
+
+
+.inlogpagina form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.inlogpagina input {
+
+    max-width: 22em;
+    background-color: #4b6e47;
+    color: rgb(197, 197, 197);
+    padding: 1em 0em;
+    margin-left: 30%;
+    border-radius: 10%;
+    border-color: white;
+}
+
+.inlogpagina h1 {
+    color: white;
+}
+
+.inlogpagina label {
+    color: white;
+    font-size: 25px;
+}
+
+/* slider */
+
+.slider li {
+    position: relative;
+    text-align: left;
+    color: white;
+    z-index: -1
+}
+
+.slider li>section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 2em;
+}
+
+.slider li>section h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.slider li>section h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    max-width: 40em;
+}
+
+
+ul:nth-child(2) {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    margin: 0 auto
+}
+
+.slider {
+    display: flex;
+}
+
+.slider ul {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+.slider ul li {
+    min-width: 100vw;
+    scroll-snap-align: center;
+}
+
+.slider img {
+    width: 100%;
+    max-height: 42em;
+}
+
+/* Grid 1 */
+
+ul {
+    list-style: none;
+}
+
+.grid1 ul {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+
+/* Ons historie blokje */
+
+.grid1 li:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+
+.grid1 li:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1 li:nth-of-type(1) img {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+
+.grid1 li:nth-of-type(1) p {
+    color: white;
+}
+
+.grid1 li:nth-of-type(1) .achtergrond {
+    background-color: #13670b;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    max-width: 80%;
+}
+
+.grid1 li:nth-of-type(1) h3 {
+    color: white;
+    padding-bottom: 2em;
+}
+
+/* Duurzaamheid blokje */
+
+.grid1 li:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1 li:nth-of-type(2) img {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    object-fit: cover;
+}
+
+.grid1 li:nth-of-type(2) .achtergrond {
+    background-color: #13670b;
+    margin-left: 10%;
+    margin-top: 3em;
+    padding-left: 5%;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.grid1 li:nth-of-type(2) h3 {
+    color: white;
+    padding-bottom: 2em;
+}
+
+
+.grid1 li:nth-of-type(2) p {
+    color: white;
+}
+
+/* Het brouwproces blokje */
+
+.grid1 li:nth-of-type(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1 li:nth-of-type(3) .achtergrond {
+    background-color: #13670b;
+    margin-left: 10%;
+    margin-top: 3.5em;
+    padding-left: 5%;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    opacity: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 80%;
+    max-height: 70%;
+}
+
+
+    
+
+.grid1 li:nth-of-type(3) h3 {
+    color: white;
+    padding-bottom: 2em;
+}
+
+
+.grid1 li:nth-of-type(3) p {
+    color: white;
+}
+
+.grid1 li:nth-of-type(3) img {
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+
+@media (min-width: 950px) {
+    .grid1 ul {
+        grid-template-rows: 1fr;
+        max-height: 30em;
+    }
+
+    .grid1 li:nth-of-type(1) {
+        max-height: 30em;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .grid1 li:nth-of-type(2) {
+        max-height: calc(15em - 10px);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .grid1 li:nth-of-type(2) .achtergrond,
+    .grid1 li:nth-of-type(3) .achtergrond,
+    .grid1 li:nth-of-type(2) img,
+    .grid1 li:nth-of-type(3) img {
+        max-height: calc(15em - 10px);
+    }
+
+    .grid1 li:nth-of-type(3) {
+        max-height: calc(15em - 10px);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+}
+
+/* navigatie bar */
+
+header {
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    text-transform: uppercase;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: start;
+    gap: 60px;
+    padding-left: 3em;
+}
+
+.nav-menu li {
+    max-height: 2em;
+    margin-top: 2em;
+    font-size: 13px;
+    margin-left: 2em;
+}
+
+.nav-menu img {
+    max-height: 2em;
+    padding-bottom: 10px;
+}
+
+.nav-branding {
+    width: 60px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(max-width:1000px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -150%;
+        gap: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: #0b4506;
+        opacity: 90%;
+        width: 85%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100vh;
+    }
+
+    .nav-menu li {
+        font-size: 15px;
+    }
+
+    .nav-menu {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+}
+
+/* grid 2 */
+
+.grid2 p {
+    color: black;
+}
+
+.grid2 {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 100%;
+}
+
+/* slider grid 2*/
+.grid2 ul {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+.grid2 ul li {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.grid2 img {
+    width: 100%;
+    max-height: 35em;
+    object-fit: contain;
+    min-width: 9em;
+}
+
+.hetorigineel,
+.heineken0,
+.heinekensilver {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    margin: 3em;
+    height: 35em;
+}
+
+.grid2 img {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+
+.grid2 h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 3em;
+}
+
+.grid2 p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    max-width: 16em;
+    font-size: 17px;
+    margin: 2em 0em;
+    font-family: sans-serif;
+    color: #5f5f5f;
+}
+
+.grid2 button {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    max-width: 12em;
+    max-height: 3em;
+    margin-top: 1em;
+    border: none;
+}
+
+.grid2 .hetorigineel button {
+    background-color: #13670b;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.grid2 .hetorigineel button:hover {
+    background-color: #2da023;
+}
+
+.grid2 .hetorigineel h3 {
+    color: #13670b;
+}
+
+.grid2 .heineken0 h3 {
+    color: #1b4677;
+}
+
+.grid2 .heinekensilver h3 {
+    color: #5f5f5f;
+}
+
+.grid2 .heinekensilver img {
+    max-width: 100%;
+}
+
+.grid2 .heineken0 button {
+    background-color: #1b4677;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.grid2 .heineken0 button:hover {
+    background-color: #2c6eb9;
+}
+
+.grid2 .heinekensilver button {
+    background-color: #818181;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.grid2 .heinekensilver button:hover {
+    background-color: #13670b;
+}
+
+/* Verantwoorde consumptie */
+
+
+.verantwoordeConsumptie img {
+    max-width: 52%;
+    float: left;
+    margin-right: 50px;
+    max-height: 23em;
+}
+
+
+.verantwoordeConsumptie ul {
+    margin: 55px;
+    margin-right: 10%;
+
+}
+
+.verantwoordeConsumptie button {
+    background-color: #808080;
+    color: white;
+    font-size: 15px;
+    max-width: 12em;
+    max-height: 3em;
+    margin-top: 1em;
+    border: none;
+    padding: 1em 3em;
+    transition: background-color 0.3s ease;
+}
+
+.verantwoordeConsumptie button:hover {
+    background-color: #13670b;
+}
+
+.verantwoordeConsumptie p {
+    font-size: 17px;
+    margin: 2em 0em;
+    font-family: sans-serif;
+    color: #5f5f5f;
+}
+
+.verantwoordeConsumptie h3 {
+    color: #13670b;
+    font-size: 2em;
+}
+
+.verantwoordeConsumptie h4 {
+    padding-top: 2em;
+}
+
+@media(max-width:850px) {
+
+    .verantwoordeConsumptie img {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+/* De magie van heineken */
+
+.demagievanheineken {
+    margin: 55px;
+    margin-top: 8em;
+}
+
+.demagievanheineken p {
+    font-size: 17px;
+    margin: 2em 0em;
+    font-family: sans-serif;
+    color: #5f5f5f;
+}
+
+.demagievanheineken h3 {
+    color: #13670b;
+    font-size: 2em;
+}
+
+.FAQ h3 {
+    color: #13670b;
+    font-size: 2em;
+}
+
+.FAQ ul a {
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
+
+.FAQ ul a:hover {
+    text-decoration: underline;
+}
+
+.FAQ ul li {
+    padding-top: 1.5em;
+}
+
+.FAQ ul {
+    margin-bottom: 2em;
+}
+
+.FAQ {
+    margin: 55px;
+    margin-top: 8em;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b4506;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+footer ul li {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    margin-bottom: 3em;
+}
+
+footer ul img {
+    max-width: 5em;
+    margin: 3em;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
