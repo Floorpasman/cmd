@@ -170,11 +170,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  <img src="readme-images/testuitslagen1.png" width="375px" alt="test uitslagen van toegankelijkheid">
-  <img src="readme-images/testuitslagen2.png" width="375px" alt="test uitslagen van toegankelijkheid">
-  <img src="readme-images/testuitslagen3.png" width="375px" alt="test uitslagen van toegankelijkheid">
-  <img src="readme-images/testuitslagen4.png" width="375px" alt="test uitslagen van toegankelijkheid">
-  <img src="readme-images/testuitslagen5.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag1.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag2.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag3.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag4.png" width="375px" alt="test uitslagen van toegankelijkheid">
+  <img src="readme-images/testuitslag5.png" width="375px" alt="test uitslagen van toegankelijkheid">
 
 </details>
 
