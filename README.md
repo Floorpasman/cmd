@@ -234,8 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-  Ik ben trots op dat ik deze grid responsive heb gemaakt en dit ook helemaal begrijp.
+  Ik ben trots op dat ik deze grid responsive heb gemaakt door middel van @media en dit ook helemaal begrijp. Dit omdat ik hier in het begin erg veel moeite mee heb gehad en er veel mee geoefend heb waardoor het me uiteindelijk is gelukt.
   <img src="readme-images/grid.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
   <img src="readme-images/grid2.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
 
