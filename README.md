@@ -236,7 +236,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/grid.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
+  <img src="readme-images/grid2.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
 
 
   ### Dit was lastig/Is niet gelukt:
