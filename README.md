@@ -172,6 +172,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - Ik moet nog sommige buttons naar a'tjes veranderen
+  - Mijn H4 staat boven mijn H3 waardoor de screenreader eerst H4 leest.
+  - De autoplay heb ik verwijderd voor usability
+
   (linker kant = originele site,
   rechter kant = mijn site)
 
