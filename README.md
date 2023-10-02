@@ -266,4 +266,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 
   3. bron 3: CSS-Tricks. (Nov 10, 2021). Keyframe Animation Syntax. CSS-Tricks. URL: https://css-tricks.com/snippets/css/keyframe-animation-syntax/
 
+  4. bron 4: Traversy Media. (2021). How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript [Video]. YouTube. https://www.youtube.com/watch?v=flItyHiDm7E
+
 </details>
