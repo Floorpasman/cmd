@@ -261,7 +261,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. bron 1: Stackoverflow (2019). Use addEventListener to Change display style. Stack Overflow. https://stackoverflow.com/questions/58204885/use-addeventlistener-to-change-display-style
 
 
-  2. bron 2: 
-  3. ...
+  2. bron 2: Mozilla. (Sep 26, 2023). z-index. Mozilla Developer Network.
+https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+
+  3. bron 3: CSS-Tricks. (Nov 10, 2021). Keyframe Animation Syntax. CSS-Tricks. URL: https://css-tricks.com/snippets/css/keyframe-animation-syntax/
 
 </details>
