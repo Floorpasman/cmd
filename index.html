@@ -11,7 +11,7 @@
 
 <body>
     <header>
-
+        <!-- bron 4: Traversy Media. (2021). How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript -->
         <!-- navigatie bar-->
         <nav class="navbar">
             <a href="#" class="nav-branding"><img src="images/logo.png" alt="Logo van heineken."></a>
@@ -22,7 +22,7 @@
                 </li>
 
                 <li>
-                    <a href="#">Onze producten</a>
+                    <a href="onzeproducten.html">Onze producten</a>
                 </li>
 
                 <li>
@@ -55,47 +55,47 @@
 
     <!-- slider 1-->
 
-        <section class="slider">
-            <ul>
-                <li>
-                    <section>
-                        <h3>VEROVER JE STOELTJE EN MAAK KANS OP EEN RACE TEGEN MAX VERSTAPPEN!</h3>
-                        <h2>Player 0.0</h2>
-                        <a href="#">Doe mee aan de competitie</a>
-                    </section>
-                    <img src="images/maxverstappen.jpeg"
-                        alt="Foto van Max Verstappen met een 0.0 biertje in zijn hand.">
-                </li>
+    <img id="confetti" src="images/confetti.png">
 
-                <li>
-                    <section>
-                        <h3>BY VICE X HEINEKEN SILVER</h3>
-                        <h2>Extra zachte expo</h2>
-                        <a href="#">Lees meer</a>
-                    </section>
-                    <img src="images/extra-zachte-expo.png" alt="Veel lachende mensen op een feestje.">
-                </li>
+    <section class="slider">
+        <ul>
+            <li>
+                <section>
+                    <h3>VEROVER JE STOELTJE EN MAAK KANS OP EEN RACE TEGEN MAX VERSTAPPEN!</h3>
+                    <h2>Player 0.0</h2>
+                    <button>Doe mee aan de competitie</button>
+                </section>
+                <img src="images/maxverstappen.jpeg" alt="Foto van Max Verstappen met een 0.0 biertje in zijn hand.">
+            </li>
 
-                <li>
-                    <section>
-                        <h3>HEINEKEN</h3>
-                        <h2>Heineken® 150 Jaar</h2>
-                        <a href="#">Lees meer</a>
-                    </section>
-                    <img src="images/heineken-150-jaar.png"
-                        alt="Veel vrolijke mensen op een feestje met bier in hun hand.">
-                </li>
+            <li>
+                <section>
+                    <h3>BY VICE X HEINEKEN SILVER</h3>
+                    <h2>Extra zachte expo</h2>
+                    <button>Lees meer</button>
+                </section>
+                <img src="images/extra-zachte-expo.png" alt="Veel lachende mensen op een feestje.">
+            </li>
 
-                <li>
-                    <section>
-                        <h3>EXTRA VERFRISSEND, EXTRA ZACHTE SMAAK</h3>
-                        <h2>Heineken® Silver</h2>
-                        <a href="#">Heineken Silver</a>
-                    </section> 
-                    <img src="images/heineken-silver.jpeg" alt="2 heineken silver blikjes in het water">
-                </li>
-            </ul>
-            </section>
+            <li>
+                <section>
+                    <h3>HEINEKEN</h3>
+                    <h2>Heineken® 150 Jaar</h2>
+                    <button>Lees meer</button>
+                </section>
+                <img src="images/heineken-150-jaar.png" alt="Veel vrolijke mensen op een feestje met bier in hun hand.">
+            </li>
+
+            <li>
+                <section>
+                    <h3>EXTRA VERFRISSEND, EXTRA ZACHTE SMAAK</h3>
+                    <h2>Heineken® Silver</h2>
+                    <button>Heineken Silver</button>
+                </section>
+                <img src="images/heineken-silver.jpeg" alt="2 heineken silver blikjes in het water">
+            </li>
+        </ul>
+    </section>
 
     <!-- grid 1 -->
     <h2>Ons verhaal</h2>
@@ -137,7 +137,7 @@
                     <h3>Het Origineel</h3>
                     <p>Iets dat je herkent is altijd verfrissend. Een koude, verse Heineken® van hoge kwaliteit. Er
                         wordt overal van genoten sinds 1873.</p>
-                        <a href="#">Ontdek meer</a>
+                    <a href="#">Ontdek meer</a>
                     <img src="images/Heinekenorigineel.png" alt="Een foto van een heineken flesje.">
                 </section>
             </li>
@@ -147,7 +147,7 @@
                     <h3>Duurzaamheid</h3>
                     <p>100% heerlijk, 0% alcohol. We zijn trots op onze Heineken® 0.0. Gebrouwen met toewijding en onze
                         doorgegeven kennis van bier.</p>
-                        <a href="#">Ontdek meer</a>
+                    <a href="#">Ontdek meer</a>
                     <img src="images/heineken0.png" alt="Foto van een duurzame muur">
                 </section>
             </li>
@@ -158,7 +158,7 @@
                     <p>Geniet van de extra verfrissende smaak van Heineken® Silver met je vrienden op echte momenten.
                         Gebrouwen met natuurlijke ingrediënten en gelagerd op een ijskoude temperatuur van -1 °C. Extra
                         fresh, for real.</p>
-                        <a href="#">Ontdek meer</a>
+                    <a href="#">Ontdek meer</a>
                     <img src="images/heinekensilver.png" alt="Foto van een blikje heindeken silver.">
                 </section>
             </li>
@@ -167,20 +167,20 @@
     <!-- Verantwoorde Consumptie -->
 
     <section class="verantwoordeConsumptie">
-            <img src="images/verantwoordeconsumptie.png"
-                    alt="groene foto met het heineken logo en een 'when you drive never drink' tekst"></li>
-                    <h3>Verantwoorde consumptie</h3>
-                <h4>Enjoy responsibly</h4>
-                <p>Verantwoord alcoholgebruik is belangrijk voor ons. We weten dat ongelukken niet alleen op de weg
-                    ontstaan. Dat is waarom we verantwoord alcoholgebruik aanmoedigen, of je nou degene bent die rijdt
-                    of niet. Daarnaast geloven wij dat de beste chaffeur altijd degene is die geen alcohol drinkt.</p>
-                    <a href="#">Ontdek hoe</a>
+        <img src="images/verantwoordeconsumptie.png"
+            alt="groene foto met het heineken logo en een 'when you drive never drink' tekst"></li>
+        <h3>Verantwoorde consumptie</h3>
+        <h4>Enjoy responsibly</h4>
+        <p>Verantwoord alcoholgebruik is belangrijk voor ons. We weten dat ongelukken niet alleen op de weg
+            ontstaan. Dat is waarom we verantwoord alcoholgebruik aanmoedigen, of je nou degene bent die rijdt
+            of niet. Daarnaast geloven wij dat de beste chaffeur altijd degene is die geen alcohol drinkt.</p>
+        <a href="#">Ontdek hoe</a>
     </section>
 
     <!-- De magie van Heineken -->
     <section class="demagievanheineken">
-        <h4>commercials & sponsoring</h4>
         <h3>De magie van Heineken®</h3>
+        <h4>commercials & sponsoring</h4>
         <p>Getapt uit het vaatje van onze rijke historie en trotse erfenis, vertellen onze campagnes het verhaal van ons
             merk. De stem van Heineken is gevat, nuchter en verfrissend. Onze visie is positief en ja, soms een tikje
             brutaal. Eén ding is zeker, elke campagne is 100% Heineken®. Proost!</p>
@@ -188,8 +188,8 @@
 
     <!-- FAQ -->
     <section class="FAQ">
-        <h4>FAQ</h4>
         <h3>Questions about Enjoy Heineken® Responsibly</h3>
+        <h4>FAQ</h4>
         <ul>
             <li>
                 <a href="#">Wat is alcohol?</a>

@@ -1,0 +1,285 @@
+
+*{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+header {
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    text-transform: uppercase;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: start;
+    gap: 60px;
+    padding-left: 3em;
+}
+
+.nav-menu li {
+    max-height: 2em;
+    margin-top: 2em;
+    font-size: 13px;
+    margin-left: 2em;
+}
+
+.nav-menu img {
+    max-height: 2em;
+    padding-bottom: 10px;
+}
+
+header img{
+ max-height: 2em;
+}
+
+.nav-branding {
+    width: 60px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(max-width:1000px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -150%;
+        gap: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: #0b4506;
+        opacity: 90%;
+        width: 85%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100vh;
+    }
+
+    .nav-menu li {
+        font-size: 15px;
+    }
+
+    .nav-menu {
+        margin: 16px 0;
+    }
+
+    .nav-menu:has(a:focus), /* als ergens in .nav-menu a met focus */
+    .nav-menu.active {
+        right: 0;
+    }
+}
+
+.producten {
+display: grid;
+grid-template-columns: 50vw 50vw;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+overflow: hidden;
+}
+
+.producten img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:1000px) {
+.producten{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+.dester{
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+    margin-top: 8em;
+}
+
+.dester h3{
+    color: #13670b;
+    order: 2;
+    font-size: 2em;
+}
+
+.dester h4{
+    order: 1;
+}
+
+.dester p{
+    order: 3;
+    font-size: 17px;
+    margin: 2em 0em;
+    font-family: sans-serif;
+    color: #5f5f5f;
+}
+
+.producten a{
+    transition: all 0.2s ease-in;
+
+}
+
+.producten a:hover{
+    border: solid green 0.3em;
+    
+}
+
+
+
+.geschiedenis img {
+    max-width: 52%;
+    float: left;
+    margin-right: 50px;
+    max-height: 23em;
+    
+}
+
+
+.geschiedenis {
+    margin: 55px;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.geschiedenistext{
+    display: flex;
+    flex-direction: column;
+}
+
+.geschiedenistext a {
+    background-color: #808080;
+    color: white;
+    font-size: 15px;
+    max-width: 5em;
+    max-height: 3em;
+    margin-top: 1em;
+    border: none;
+    padding: 1em 3em;
+    transition: background-color 0.3s ease;
+    order: 4;
+}
+
+.geschiedenistext a:hover {
+    background-color: #13670b;
+}
+
+.geschiedenistext p {
+    font-size: 17px;
+    margin: 2em 0em;
+    font-family: sans-serif;
+    color: #5f5f5f;
+    order: 3;
+}
+
+.geschiedenistext h3 {
+    color: #13670b;
+    font-size: 2em;
+    order: 2;
+}
+
+.geschiedenistext h4 {
+    padding-top: 2em;
+    order: 1;
+}
+
+@media(max-width:850px) {
+
+    .geschiedenis img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .geschiedenis{
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: #0b4506;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+footer ul li {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    margin-bottom: 3em;
+}
+
+footer ul img {
+    max-width: 5em;
+    margin: 3em;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme:dark) {
+    body {
+        background-color: black;
+    }
+    
+    .dester h4, .geschiedenistext h4{
+        color: white;
+    }
+
+    .dester h3, .geschiedenistext h3{
+    color: rgb(44, 154, 1);
+    }
+
+    .dester p, .geschiedenistext p{
+        color: rgb(189, 189, 189);
+    }
+}
