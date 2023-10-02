@@ -258,8 +258,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. bron 1: Stackoverflow (2019). Use addEventListener to Change display style. Stack Overflow. https://stackoverflow.com/questions/58204885/use-addeventlistener-to-change-display-style
+
+
+  2. bron 2: 
   3. ...
 
 </details>
