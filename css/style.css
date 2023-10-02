@@ -21,21 +21,34 @@ h2 {
     margin-top: 10%;
 }
 
+#confetti{
+    position: absolute;
+    max-height: 19em;
+    display: none;
+}
+
 /* slider */
 
 .slider li {
     position: relative;
     text-align: left;
     color: white;
+    /* Bron 2: Mozilla. (Sep 26, 2023). z-index.*/
     z-index: -1
 }
 
-.slider a{
+
+/* was eerst <a>, dat werkte niet dus nu halfwerkende button */
+
+.slider button{
 background-color: #13670b;
 padding: 1em;
+color: white;
+margin-top: 1em;
+border: none;
 }
 
-.slider a:hover {
+.slider button:hover {
     background-color: #2da023;
 }
 
@@ -253,7 +266,7 @@ ul {
 
 @media (min-width: 950px) {
     .grid1 ul {
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr;
         max-height: 30em;
     }
 
@@ -290,6 +303,7 @@ ul {
 }
 
 /* navigatie bar */
+/* bron 4: Traversy Media. (2021). How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript */
 
 header {
     background-color: black;
@@ -426,6 +440,19 @@ a {
     min-width: 9em;
 }
 
+.grid2 img:hover{
+    animation: shake 0.5s;
+}
+
+/* Bron 3: CSS-Tricks. (Nov 10, 2021). Keyframe Animation Syntax */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px)}
+    50% { transform: translateX(10px)}
+    75% { transform: translateX(-10px)}
+    100% { transform: translateX(10px)}
+}
+
 .hetorigineel,
 .heineken0,
 .heinekensilver {
@@ -471,6 +498,8 @@ a {
     max-height: 3em;
     border: none;
     text-align: center;
+    padding: 1em 3em;
+    max-width: 12em;
 }
 
 .grid2 .hetorigineel a {
@@ -536,7 +565,8 @@ a {
 .verantwoordeConsumptie {
     margin: 55px;
     margin-right: 10%;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .verantwoordeConsumptie a {
@@ -549,6 +579,7 @@ a {
     border: none;
     padding: 1em 3em;
     transition: background-color 0.3s ease;
+    order: 4;
 }
 
 .verantwoordeConsumptie a:hover {
@@ -560,16 +591,18 @@ a {
     margin: 2em 0em;
     font-family: sans-serif;
     color: #5f5f5f;
+    order: 3;
 }
 
 .verantwoordeConsumptie h3 {
     color: #13670b;
     font-size: 2em;
+    order: 2;
 }
 
 .verantwoordeConsumptie h4 {
     padding-top: 2em;
-    
+    order: 1;
 }
 
 @media(max-width:850px) {
@@ -585,6 +618,8 @@ a {
 .demagievanheineken {
     margin: 55px;
     margin-top: 8em;
+    display: flex;
+    flex-direction: column;
 }
 
 .demagievanheineken p {
@@ -592,16 +627,27 @@ a {
     margin: 2em 0em;
     font-family: sans-serif;
     color: #5f5f5f;
+    order: 3;
 }
 
 .demagievanheineken h3 {
     color: #13670b;
     font-size: 2em;
+    order: 2;
+}
+
+.demagievanheineken h4{
+    order: 1;
 }
 
 .FAQ h3 {
     color: #13670b;
     font-size: 2em;
+    order: 2;
+}
+
+.FAQ h4 {
+    order: 1;
 }
 
 .FAQ ul a {
@@ -622,11 +668,14 @@ a {
 
 .FAQ ul {
     margin-bottom: 2em;
+    order: 3;
 }
 
 .FAQ {
     margin: 55px;
     margin-top: 8em;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
@@ -659,3 +708,74 @@ footer ul img {
 footer ul li:hover {
     text-decoration: underline;
 }
+
+
+@media (prefers-color-scheme:dark) {
+    body {
+        background-color: black;
+    }
+    
+    h2 {
+        color: white;
+    }
+
+    .demagievanheineken p{
+        color: rgb(189, 189, 189);
+    }
+
+    .demagievanheineken h4, .verantwoordeConsumptie h4{
+        color: rgb(44, 154, 1);
+    }
+
+    .demagievanheineken h3, .verantwoordeConsumptie h3{
+        color: white;
+    }
+    
+    .verantwoordeConsumptie p{
+        color: rgb(189, 189, 189);
+    }
+    
+    .grid2 .hetorigineel h3 {
+        color:white;
+    }
+    
+    .grid2 .heineken0 h3 {
+        color: white;
+    }
+    
+    .grid2 .heinekensilver h3{
+        color: white;
+    }
+
+    .grid2 p{
+        color: rgb(189, 189, 189);
+    }
+
+    .grid2 a{
+        background-color: rgb(189, 189, 189);
+    }
+
+    .grid2 .hetorigineel a {
+        background-color:rgb(7, 66, 7);
+    }
+    
+    .grid2 .heineken0 a {
+        background-color: rgb(39, 27, 127);
+    }
+    
+    .grid2 .heinekensilver a{
+        background-color: rgb(93, 93, 93);
+    }
+
+    .FAQ ul a{
+        color: rgb(189, 189, 189);
+    }
+
+    .FAQ h3{
+        color: white;
+    }
+
+    .FAQ h4{
+        color: rgb(44, 154, 1);
+    }
+}    
