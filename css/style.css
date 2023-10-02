@@ -339,7 +339,8 @@ a {
 }
 
 .nav-menu img {
-    max-height: 2em;
+    height: 2em;
+    width: 1.5em;
     padding-bottom: 10px;
 }
 
