@@ -104,7 +104,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Deze week was ik erg bezig met mijn slider onder controle krijgen.
+ Het inklap menu had ik erg snel door en stond er dan ook al, maar ik heb te veel tijd besteed aan de opmaak van de slider.
 
 
   ### Agenda voor meeting
