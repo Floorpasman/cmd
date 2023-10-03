@@ -229,21 +229,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
   ### Dit ging goed/Heb ik geleerd: 
   Ik ben trots op dat ik deze grid responsive heb gemaakt door middel van @media en dit ook helemaal begrijp. Dit omdat ik hier in het begin erg veel moeite mee heb gehad en er veel mee geoefend heb waardoor het me uiteindelijk is gelukt.
   <img src="readme-images/grid.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
   <img src="readme-images/grid2.png" width="375px" alt="Een grid met 3 plaatjes die responsive is.">
 
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  ### Eindgesprek feedback:
+Tijdens mijn eindgesprek is me verteld om een aantal dingen aan te passen.
+Dit waren de volgende punten:
+  - Kleine html-errors die makkelijk te fixen zijn.
+    
+  -  hiërarchiefoutjes aanpassen
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+  -  homepage-link accesible maken.
+
+Ik heb deze punten aangepast:
+- Alle errors weggehaald, enkel warnings over nu:
+  <img src="readme-images/warnings.png" width="375px" alt="warnings">
+
+- Ik heb alle H2's voor de H3's gezet en deze daarna met css omgedraaid voor de vormgeving.
+
+- Ik heb de alt van het logo aangepast.
+    
+
 
 
 
