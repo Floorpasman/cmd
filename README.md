@@ -139,7 +139,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ook deze week was ik erg bezig met mijn slider onder controle krijgen.
+  Ik had hier ook een begin gemaakt aan mijn eerste grid en deze met @media responsive gemaakt.
+  <img src="readme-images/slidervoorbeeld.png" width="375px" alt="slider">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -199,7 +201,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  In week 4 heb ik heel hard gewerkt om bij te benen, 
+  Ik ben erg trots op dat ik een donkere versie heb gemaakt en wat bewegende animaties toegevoegd.
+  In deze week kreeg ik het 'grids maken' door.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
