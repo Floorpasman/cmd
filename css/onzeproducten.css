@@ -7,6 +7,9 @@ ul{
     list-style: none;
 }
 
+/* navigatie bar */
+/* bron 4: Traversy Media. (2021). How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript */
+
 header {
     background-color: black;
 }
@@ -41,12 +44,9 @@ a {
 }
 
 .nav-menu img {
-    max-height: 2em;
+    height: 2em;
+    width: 1.5em;
     padding-bottom: 10px;
-}
-
-header img{
- max-height: 2em;
 }
 
 .nav-branding {
@@ -112,7 +112,6 @@ header img{
         right: 0;
     }
 }
-
 .producten {
 display: grid;
 grid-template-columns: 50vw 50vw;
