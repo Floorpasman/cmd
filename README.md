@@ -106,7 +106,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
  Deze week was ik erg bezig met mijn slider onder controle krijgen.
  Het inklap menu had ik erg snel door en stond er dan ook al, maar ik heb te veel tijd besteed aan de opmaak van de slider.
-
+<img src="readme-images/slidervoorbeeld.png" width="375px" alt="slider">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
